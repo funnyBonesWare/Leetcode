@@ -3,6 +3,7 @@
  * @return {number}
  */
 var removeDuplicates = function(nums) {
+    //solution
     if (nums.length === 0) return 0; // Edge case: empty array
 
     let k = 0; // Slow pointer to track unique elements
